@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+div {
+    margin-top: 20px;
+    margin-left: 35px;
+    box-shadow: 5px 5px rgb(63, 61, 61);
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    background-color: black;
+    color: aliceblue;
+    display: inline-block;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#main {
+    margin: 90px;
+    background-color: rgb(35, 41, 39);
+    height: 300px;
+    width: 600px;
+    box-shadow: 5px 5px gray;
+    
+}
+
+main {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    margin: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-style:none;
+
+}
+button:hover{
+    background-color:orangered;
+    color:black;
+    transition: 5ms;
+}
